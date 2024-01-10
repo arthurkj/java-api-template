@@ -17,12 +17,10 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
-    private String login;
 
     @NotNull
     private String password;
 
     @NotNull
-    private String nome;
+    private String name;
 }
