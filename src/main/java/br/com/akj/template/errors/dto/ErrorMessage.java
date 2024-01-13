@@ -4,10 +4,10 @@ import org.springframework.validation.FieldError;
 
 public record ErrorMessage(String field, String message) {
 
-    private static final String VALOR_PADRAO_FIELD = "reason";
+    private static final String FIELD_DEFAULT_VALUE = "reason";
 
     public ErrorMessage(final String message) {
-        this(VALOR_PADRAO_FIELD, message);
+        this(FIELD_DEFAULT_VALUE, message);
     }
 
     public ErrorMessage(final FieldError fieldError) {

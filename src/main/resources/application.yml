@@ -13,10 +13,10 @@ logging:
     br.com.akj: DEBUG
 
 ### ACTUATOR ###
-# define para sempre exibir os detalhes no endpoint health check
+# set to always show the details at health check endpoint
 management:
   endpoint.health.show-details: always
-# define quais recursos serão expostos
+# set the resources to be exposed
   endpoints.web.exposure.include: health,info,metrics
 
 ### LIQUIBASE ###

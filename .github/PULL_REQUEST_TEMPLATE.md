@@ -1,10 +1,10 @@
-## Quais mudanças esse PR propõe?
-Descreva a alteração de forma sucinta e clara.
+## What changes were proposed in this pull request?
+Describe the porpose of this PR clearly and concisely.
 
-## Como essas alterações foram testadas?
-- Foram criados novos testes unitários?
-- O que foi testado?
-- Exemplos de testes manuais: `curl`, `Postman`, etc;
+## How was this changes tested?
+- Are there new tests?
+- What was tested?
+- Manual test examples: `curl`, `Postman`, etc;
 
-## Informações extras:
-Prints, payloads, mudanças nas assinaturas de endpoints (path parameters, query parameters, headers, etc) e etc.
+## Extra info:
+Prints, payloads, endpoint signature changes (path parameters, query parameters, headers, etc), etc.
